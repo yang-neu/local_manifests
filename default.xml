@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="peyo" fetch="https://github.com/peyo-hd"/>
+  <remote name="peyo" fetch="ssh://git@github.com/peyo-hd"/>
   
   <remove-project name="platform/external/mesa3d"/>
   <project path="external/mesa3d" name="external_mesa3d" revision="ppv" remote="peyo"/>
