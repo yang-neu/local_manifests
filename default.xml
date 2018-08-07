@@ -3,19 +3,19 @@
   <remote name="peyo" fetch="ssh://git@github.com/peyo-hd"/>
   
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="ppv" remote="peyo"/>
-  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="ppv" remote="peyo"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="pie" remote="peyo"/>
+  <remove-project name="platform/external/drm_gralloc"/>
+  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="pie" remote="peyo"/>
+  <remove-project name="platform/external/libdrm"/>
+  <project path="external/libdrm" name="platform/external/libdrm" revision="sdk-release"/>
 
-  <project path="kernel/rpi" name="kernel_rpi" revision="ppv" remote="peyo"/>
-  <project path="hardware/rpi" name="hardware_rpi" revision="ppv" remote="peyo"/>
-  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="ppv" remote="peyo"/>
+  <project path="kernel/rpi" name="kernel_rpi" revision="pie" remote="peyo"/>
+  <project path="hardware/rpi" name="hardware_rpi" revision="pie" remote="peyo"/>
+  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="pie" remote="peyo"/>
 
-  <project path="vendor/peyo/RpLauncher" name="RpLauncher" revision="ppv" remote="peyo"/>
+  <project path="vendor/peyo/RpLauncher" name="RpLauncher" revision="pie" remote="peyo"/>
 
-  <remove-project name="device/google/dragon-kernel" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/wahoo-kernel" />
-  <remove-project name="device/huawei/angler-kernel" />
-  <remove-project name="device/lge/bullhead-kernel" />
   <remove-project name="device/linaro/hikey-kernel" />
 </manifest>

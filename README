@@ -1,11 +1,11 @@
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
- $ repo init -u https://android.googlesource.com/platform/manifest -b android-p-preview-5
- $ git clone https://github.com/peyo-hd/local_manifests .repo/local_manifests -b ppv
+ $ repo init -u https://android.googlesource.com/platform/manifest -b android-9.0.0_r3
+ $ git clone https://github.com/peyo-hd/local_manifests .repo/local_manifests -b pie
  $ repo sync
 
 # Build for Raspberry Pi3
- https://github.com/peyo-hd/device_brcm_rpi3/tree/ppv
+ https://github.com/peyo-hd/device_brcm_rpi3/tree/pie
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
 
