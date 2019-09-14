@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="peyo" fetch="ssh://git@github.com/peyo-hd"/>
+  <remote name="RaspberryPiFan" fetch="ssh://git@github.com/RaspberryPiFan"/>
   
   <remove-project name="platform/external/mesa3d"/>
-  <project path="external/mesa3d" name="external_mesa3d" revision="rpi3-19.1" remote="peyo"/>
-  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="rpi3-19.1" remote="peyo"/>
+  <project path="external/mesa3d" name="external_mesa3d" revision="rpi3-19.1" remote="RaspberryPiFan"/>
+  <project path="external/drm_gralloc" name="external_drm_gralloc" revision="rpi3-19.1" remote="RaspberryPiFan"/>
 
-  <project path="kernel/rpi" name="kernel_rpi" revision="arpi-4.19.y" remote="peyo"/>
-  <project path="hardware/rpi" name="hardware_rpi" revision="android-10" remote="peyo"/>
-  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="android-10" remote="peyo"/>
+  <project path="kernel/rpi" name="kernel_rpi" revision="rpi-4.19.y" remote="RaspberryPiFan"/>
+  <project path="hardware/rpi" name="hardware_rpi" revision="android-10" remote="RaspberryPiFan"/>
+  <project path="device/brcm/rpi3" name="device_brcm_rpi4" revision="android-10" remote="RaspberryPiFan"/>
 
-  <project path="vendor/peyo/RpLauncher" name="RpLauncher" revision="pie" remote="peyo"/>
+  <project path="vendor/peyo/RpLauncher" name="RpLauncher" revision="android-10" remote="RaspberryPiFan"/>
 
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/crosshatch-kernel" />  
