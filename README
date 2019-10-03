@@ -4,8 +4,8 @@
  $ git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b android-10
  $ repo sync
 
-# Build for Raspberry Pi3
- https://github.com/android-rpi/device_brcm_rpi3/tree/android-10
+# Build for Raspberry Pi4
+ https://github.com/RaspberryPiFan/device_brcm_rpi4/tree/android-10
 
 Use -j[n] option on sync & build steps, if build host has a good number of CPU cores.
 
