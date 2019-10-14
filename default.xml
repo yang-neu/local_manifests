@@ -10,7 +10,7 @@
   <project path="external/drm_gralloc" name="external_drm_gralloc" revision="rpi3-19.1" remote="RaspberryPiFan"/>
 
   <project path="kernel/rpi" name="linux" revision="rpi-4.19.y" remote="RaspberryPi"/>
-  <project path="hardware/rpi" name="hardware_rpi" revision="pie" remote="RaspberryPiFan"/>
+  <project path="hardware/rpi" name="hardware_rpi" revision="android10" remote="RaspberryPiFan"/>
   <project path="device/brcm/rpi3" name="device_brcm_rpi4" revision="android-10" remote="RaspberryPiFan"/>
   <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="android10" remote="arpi"/>
 
