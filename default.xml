@@ -11,7 +11,7 @@
 
   <project path="kernel/rpi" name="linux" revision="rpi-4.19.y" remote="RaspberryPi"/>
   <project path="hardware/rpi" name="hardware_rpi" revision="pie" remote="RaspberryPiFan"/>
-  <project path="device/brcm/rpi4" name="device_brcm_rpi4" revision="android-10" remote="RaspberryPiFan"/>
+  <project path="device/brcm/rpi3" name="device_brcm_rpi4" revision="android-10" remote="RaspberryPiFan"/>
   <project path="vendor/arpi/RpLauncher" name="RpLauncher" revision="android10" remote="arpi"/>
 
   <remove-project name="device/google/bonito-kernel" />
